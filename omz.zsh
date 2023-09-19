@@ -4,6 +4,7 @@ source $OMZ/config/git.zsh
 source $OMZ/config/fzf.zsh
 source $OMZ/config/hook.zsh
 source $OMZ/themes/simple.zsh-theme
+source $OMZ/config/shortcut.zsh
 
 # configuration
 [ "$_OMZ_APPLY_PREEXEC_HOOK" = "true" ] && _apply_preexec_hook  # file: $OMZ/config/hook.zsh
