@@ -14,6 +14,7 @@ alias gs='git --no-pager status'
 alias gss='git --no-pager status -s'
 alias gpt='git push origin --tags'
 alias glt='git tag -n --sort=taggerdate | tail -n ${1-10}'
+alias gc='git clone'
 gat() { git tag -a $1 -m "$2" }
 gam() { git add --all && git commit -m "$*" }
 gitlog() {
